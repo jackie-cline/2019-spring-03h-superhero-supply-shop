@@ -21,6 +21,8 @@ body {
     list-style: none;
     background: darkblue;
     margin-top: 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 #nav li{
@@ -46,13 +48,34 @@ h1, h2 {
 
 #gallery {
     background: red;
+    display: flex;
+    justify-content: center;
 }
 
 .gallery-item{
     width: 510px;
 }
 
-.sub-section img {
-    margin: 10px;
+.sub-section-1 img {
     border: darkblue solid 3px;
+    margin: 10px 30px;
+}
+.sub-section-2 img {
+    border: darkblue solid 3px;
+    margin: 10px 45px;
+}
+.sub-section-1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sub-section-2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+p {
+    padding: 10px;
+    font-family: arial;
+    font-size:  12px;
 }
